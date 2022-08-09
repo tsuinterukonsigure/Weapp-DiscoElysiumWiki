@@ -1,0 +1,13 @@
+<!--pages/personList/personList.wxml-->
+<view>
+    <import src="/template/bg/bg.wxml"/>
+    <template is="bg"></template>
+    <import src="/template/searchBar/searchBar.wxml"/>
+    <template is="search"/>
+    <view class="id-slot">
+        <import src="/template/npcSlot/npcSlot.wxml"/>
+        <block wx:for="{{val}}" wx:key="id">
+            <template is="npc-slot" data="{{...item}}"></template>
+        </block>
+    </view>
+</view>

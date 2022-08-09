@@ -1,0 +1,28 @@
+/* template/listSlot/listSlot.wxss */
+.list-slot {
+    display: flex;
+    margin-bottom: 40rpx;
+    margin-left: 40rpx;
+    margin-right: 40rpx;
+    background-color: #222;
+    border-radius: 10rpx;
+    padding-left: 10rpx;
+    padding-right: 20rpx;
+    padding-top: 10rpx;
+    padding-bottom: 10rpx;
+}
+.list-slot > image {
+    height: 160rpx;
+    width: 160rpx;
+}
+.list-slot > text {
+    color: blanchedalmond;
+    flex: auto;
+    padding-top: 58rpx;
+    margin-left: 35rpx;
+}
+.ls-btn {
+    margin-top: 50rpx !important;
+    flex: auto !important;
+    z-index: 1 !important;
+}

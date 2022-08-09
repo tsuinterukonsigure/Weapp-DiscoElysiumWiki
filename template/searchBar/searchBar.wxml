@@ -1,0 +1,4 @@
+<!--template/searchBar/searchBar.wxml-->
+<template name="search">
+  <van-search custom-class="search-bar" value="{{val}}" placeholder="搜索一个词条" background="#222222"/>
+</template>

@@ -1,0 +1,48 @@
+<!--pages/itemList/itemList.wxml-->
+<view>
+    <import src="/template/bg/bg.wxml"/>
+    <template is="bg"></template>
+    <import src="/template/searchBar/searchBar.wxml"/>
+    <template is="search"/>
+
+    <view>
+        <van-tabs active="{{active}}" nav-class="item-tab" ellipsis="false" title-active-color="white" color="#c19664">
+            <van-tab title="工具">
+                <view class="id-slot">
+                    <import src="/template/itemSlot/itemSlot.wxml"/>
+                    <view class="excel-ttl">
+                        <text class="ttl-f-pic">图片</text>
+                        <text>名称</text>
+                        <text>用途</text>
+                    </view>
+                    <block wx:for="{{tools}}" wx:key="id">
+                        <template is="item-slot" data="{{...item}}"></template>
+                    </block>
+                </view>
+            </van-tab>
+            <van-tab title="服装">
+                <view class="id-slot">
+                    <view class="excel-ttl">
+                        <text class="ttl-f-pic">图片</text>
+                        t
+                    </view>
+                </view>
+            </van-tab>
+            <van-tab title="成瘾物">
+                <view class="id-slot">
+                    
+                </view>
+            </van-tab>
+            <van-tab title="道具">
+                <view class="id-slot">
+                    
+                </view>
+            </van-tab>
+            <van-tab title="互动">
+                <view class="id-slot">
+                    
+                </view>
+            </van-tab>
+        </van-tabs>
+    </view>
+</view>

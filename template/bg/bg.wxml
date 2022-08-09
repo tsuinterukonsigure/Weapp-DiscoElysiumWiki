@@ -1,0 +1,6 @@
+<!--template/bg/bg.wxml-->
+<template name="bg">
+    <view class="overlay-bg">
+        <image src="https://img1.imgtp.com/2022/07/28/o9pVtb7N.jpg" mode="widthFix" style="width: 100%"></image>
+    </view>
+</template>

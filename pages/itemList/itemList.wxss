@@ -1,0 +1,35 @@
+/* pages/itemList/itemList.wxss */
+.excel-ttl {
+    display: flex;
+    border: 1rpx solid #333;
+    overflow: hidden;
+    margin-top: 20rpx;
+    height: 50rpx;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+}
+.excel-ttl > text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-right: 25rpx;
+    padding-left: 20rpx;
+    font-weight: bold;
+    color: gray;
+
+}
+
+.excel-ttl > text:nth-child(2) {
+    width: 180rpx;
+    border-right: 1rpx solid #333;
+}
+.excel-ttl > text:nth-child(3) {
+    width: 250rpx;
+}
+
+.ttl-f-pic {
+    width: 128rpx !important;
+    padding: 5rpx 5rpx 5rpx 5rpx !important;
+    border-right: 1rpx solid #333;
+}

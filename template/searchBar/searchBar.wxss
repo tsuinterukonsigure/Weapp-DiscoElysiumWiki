@@ -1,0 +1,6 @@
+/* template/searchBar/searchBar.wxss */
+.search-bar {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}

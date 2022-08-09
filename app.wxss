@@ -1,0 +1,41 @@
+/**app.wxss**/
+@import "/template/bg/bg.wxss";
+@import "/template/listSlot/listSlot.wxss";
+@import "/template/searchBar/searchBar.wxss";
+@import "/template/npcSlot/npcSlot.wxss";
+@import "/template/itemSlot/itemSlot.wxss";
+@import "/pages/itemList/itemList.wxss";
+
+text {
+    color: blanchedalmond;
+    font-size: small;
+}
+.main-slot {
+    z-index: 1;
+    background-color: #111;
+    border-radius: 10rpx;
+    margin: 20rpx 20rpx 20rpx;
+    padding-bottom: 5rpx;
+    padding-top: 5rpx;
+} 
+.id-slot {
+    background-color: black;
+    border-radius: 10rpx;
+    margin: 20rpx 20rpx 20rpx;
+    padding-top: 15rpx;
+    padding-bottom: 40rpx;
+    padding-left: 15rpx;
+    padding-right: 15rpx;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.home {
+    padding-top: 50rpx;
+    padding-bottom: 20rpx;
+    width: 100%;
+}
+
+.item-tab {
+    background-color: #111;
+}

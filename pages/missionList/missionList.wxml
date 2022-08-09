@@ -1,0 +1,7 @@
+<!--pages/missionList/missionList.wxml-->
+<view>
+    <import src="/template/bg/bg.wxml"/>
+    <template is="bg"></template>
+    <import src="/template/searchBar/searchBar.wxml"/>
+    <template is="search"/>
+</view>

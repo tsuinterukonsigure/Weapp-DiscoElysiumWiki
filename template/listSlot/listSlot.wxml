@@ -1,0 +1,8 @@
+<!--template/listSlot/listSlot.wxml-->
+<template name="list-slot">
+    <view class="list-slot">
+        <image src="{{img_src}}"></image>
+        <text>{{slot_name}}</text>
+        <van-button custom-class="ls-btn" size="small" type="primary">阅读</van-button>
+    </view>
+</template>

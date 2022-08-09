@@ -1,0 +1,7 @@
+<!--template/npcSlot/npcSlot.wxml-->
+<template name="npc-slot">
+    <view class="npc-slot">
+        <image src="{{avater_src}}"></image>
+        <van-button custom-class="npc-btn" color="#222222">{{npc_name}}</van-button>
+    </view>
+</template>

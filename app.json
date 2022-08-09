@@ -1,0 +1,68 @@
+{
+  "pages":[
+    "pages/quickStart/quickStart",
+    "pages/missionList/missionList",
+    "pages/mindList/mindList",
+    "pages/itemList/itemList",
+    "pages/personList/personList",
+    "template/searchBar/searchBar",
+    "template/bg/bg",
+    "template/listSlot/listSlot",
+    "template/npcSlot/npcSlot",
+    "template/itemSlot/itemSlot",
+    "template/toolExc/toolExc"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "极乐迪斯科图鉴",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+      "list": [
+          {
+              "pagePath": "pages/quickStart/quickStart",
+              "text": "极乐世界",
+              "iconPath": "icons/quick.png",
+              "selectedIconPath": "icons/quick.png"
+          },
+          {
+              "pagePath": "pages/personList/personList",
+              "text": "NPC",
+              "iconPath": "icons/npc.png",
+              "selectedIconPath": "icons/npc.png"
+          },
+          {
+              "pagePath": "pages/itemList/itemList",
+              "text": "物品",
+              "iconPath": "icons/item.png",
+              "selectedIconPath": "icons/item.png"
+          },
+          {
+              "pagePath": "pages/mindList/mindList",
+              "text": "主角",
+              "iconPath": "icons/mind.png",
+              "selectedIconPath": "icons/mind.png"
+          },
+          {
+              "pagePath": "pages/missionList/missionList",
+              "text": "任务",
+              "iconPath": "icons/mission.png",
+              "selectedIconPath": "icons/mission.png"
+          }
+      ],
+      "color": "#fff",
+      "selectedColor": "#eddb47",
+      "backgroundColor": "#222222"
+      
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-search": "@vant/weapp/search/index",
+    "van-overlay": "@vant/weapp/overlay/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index"
+  },
+  "lazyCodeLoading": "requiredComponents"
+}

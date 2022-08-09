@@ -1,0 +1,14 @@
+<!--pages/quickStart/quickStart.wxml-->
+<view>
+    <import src="/template/bg/bg.wxml"/>
+    <template is="bg"></template>
+    <import src="/template/searchBar/searchBar.wxml"/>
+    <template is="search"></template>
+    <view class="main-slot">
+        <image src="/images/home.jpg" mode="widthFix" class="home"></image>
+        <import src="/template/listSlot/listSlot.wxml"/>
+        <block wx:for="{{listVal}}" wx:key="id">
+            <template is="list-slot" data="{{...item}}"></template>
+        </block>
+    </view>
+</view>

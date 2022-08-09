@@ -1,0 +1,19 @@
+/* template/npcSlot/npcSlot.wxss */
+.npc-slot {
+    margin-top: 40rpx;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20rpx;
+    border-radius: 10rpx !important;
+    overflow: hidden;
+}
+.npc-slot > image {
+    width: 190rpx;
+    height: 285rpx;
+}
+.npc-btn {
+    width: 190rpx !important;
+    font-size: small !important;
+}

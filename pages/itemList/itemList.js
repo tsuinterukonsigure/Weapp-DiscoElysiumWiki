@@ -306,6 +306,72 @@ Page({
                 item_name: "跨岛礼服衬衫",
                 clo_type: "衬衫",
                 effect: "逻辑思维 +1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/kSfCwdTa.png",
+                item_name: "“来自赫姆达尔的男人”主题T恤",
+                clo_type: "衬衫",
+                effect: "强身健体 +1\n天人感应 +1\n争强好胜 -2"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/YdFS52gv.png",
+                item_name: "白背心",
+                clo_type: "衬衫",
+                effect: "强身健体 +1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/tUhttho9.png",
+                item_name: "白色绸缎衬衫",
+                clo_type: "衬衫",
+                effect: "标新立异 +1：\n真正的声明\n循循善诱 -1：\n讨厌的气味"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/H0kXFL7T.png",
+                item_name: "疯狂的网眼背心",
+                clo_type: "衬衫",
+                effect: "故弄玄虚 +1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/MaYoq95V.png",
+                item_name: "白色马球衫",
+                clo_type: "衬衫",
+                effect: "能说会道 +1\n通情达理 -1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/Ntxrm0UC.png",
+                item_name: "费尔韦瑟T-500胸甲",
+                clo_type: "衬衫",
+                effect: "坚忍不拔 +1\n平心定气 +1\n通情达理 -1\n（可以防弹）"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/gDlxkLB1.png",
+                item_name: "FALN“箭头”衬衫",
+                clo_type: "衬衫",
+                effect: "眼明手巧 +1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/0cp4LnCW.png",
+                item_name: "无指手套",
+                clo_type: "手套",
+                effect: "食髓知味 +1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/qYlaEchG.png",
+                item_name: "黄色园艺手套",
+                clo_type: "手套",
+                effect: "能工巧匠 +1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/iMUl4E6G.png",
+                item_name: "费尔韦瑟T-500长手套",
+                clo_type: "手套",
+                effect: "能工巧匠 +2"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/SG9yjQ9c.png",
+                item_name: "FALN“极限”系列手套",
+                clo_type: "手套",
+                effect: "疑神疑鬼 +1"
             }
         ]
     },

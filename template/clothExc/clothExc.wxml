@@ -1,0 +1,17 @@
+<!--template/clothExc/clothExc.wxml-->
+<template name="cloth-exc">
+    <view class="cloth-exc-ttl">
+        <text class="pic-ttl">图片</text>
+        <text>名称</text>
+        <text>类别</text>
+        <text>效果</text>
+    </view>
+    <block wx:for="{{clothes}}" wx:key="id">
+        <view class="cloth-card">
+            <image src="{{item.ava_pic}}"></image>
+            <text>{{item.item_name}}</text>
+            <text>{{item.clo_type}}</text>
+            <text>{{item.effect}}</text>
+        </view>
+    </block>
+</template>

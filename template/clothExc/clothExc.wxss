@@ -1,5 +1,5 @@
-/* template/toolExc/toolExc.wxss */
-.tool-exc-ttl {
+/* template/clothExc/clothExc.wxss */
+.cloth-exc-ttl {
     display: flex;
     border: 1rpx solid #333;
     overflow: hidden;
@@ -8,7 +8,7 @@
     margin-left: 10rpx;
     margin-right: 10rpx;
 }
-.tool-exc-ttl > text {
+.cloth-exc-ttl > text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,28 +18,32 @@
     font-weight: bold;
     color: gray;
 }
-.tool-exc-ttl > text:nth-child(2) {
+.cloth-exc-ttl > text:nth-child(2) {
     width: 180rpx;
     border-right: 1rpx solid #333;
 }
-.tool-exc-ttl > text:nth-child(3) {
-    width: 250rpx;
+.cloth-exc-ttl > text:nth-child(3) {
+    width: 50rpx;
+    border-right: 1rpx solid #333;
 }
-.tool-card {
+.cloth-exc-ttl > text:nth-child(4) {
+    width: 160rpx;
+}
+.cloth-card {
     display: flex;
     margin-left: 10rpx;
     margin-right: 10rpx;
     border: 1rpx solid #333 !important;
     overflow: hidden;
 }
-.tool-card > image {
+.cloth-card > image {
     width: 128rpx !important;
     height: 128rpx !important;
     background-color: #222;
     padding: 5rpx 5rpx 5rpx 5rpx;
     border-right: 1rpx solid #333;
 }
-.tool-card > text {
+.cloth-card > text {
     font-size: small;
     height: 100%;
     background-color: #111;
@@ -50,10 +54,14 @@
     padding-right: 25rpx;
     padding-left: 20rpx;
 }
-.tool-card > text:nth-child(2) {
+.cloth-card > text:nth-child(2) {
     width: 180rpx;
     border-right: 1rpx solid #333;
 }
-.tool-card > text:nth-child(3) {
-    width: 250rpx;
+.cloth-card > text:nth-child(3) {
+    border-right: 1rpx solid #333;
+    width: 50rpx;
+}
+.cloth-card > text:nth-child(4) {
+    width: 160rpx;
 }

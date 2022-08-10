@@ -5,7 +5,7 @@ Page({
      * 页面的初始数据
      */
     data: {
-        active: 0,
+        active: 1,
         tools: [
             {
                 ava_pic: "https://img1.imgtp.com/2022/08/05/yWQMyLX5.png",
@@ -73,8 +73,49 @@ Page({
                 ava_pic: "https://img1.imgtp.com/2022/08/09/EyBJKrV2.png",
                 item_name: "橙色毛线帽",
                 clo_type: "帽子",
-                effect: "反应速度 +1\n能说会道 -1",
-                loc: "后院"
+                effect: "反应速度 +1\n能说会道 -1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/MicvAZpq.png",
+                item_name: "“两栖动物”运动遮阳帽",
+                clo_type: "帽子",
+                effect: "五感发达 +1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/TL877Uij.png",
+                item_name: "迪克·马伦的帽子",
+                clo_type: "帽子",
+                effect: "博学多闻 +1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/vv5QuzEY.png",
+                item_name: "RCM警督帽",
+                clo_type: "帽子",
+                effect: "争强好胜 +1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/yzmfEqWo.png",
+                item_name: "革命帽",
+                clo_type: "帽子",
+                effect: "	马佐夫社会经济学 +1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/DHA2oxlz.png",
+                item_name: "FALN“皮波”羊毛帽",
+                clo_type: "帽子",
+                effect: "逻辑思维 +2\n五感发达 -1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/pYaRoFGe.png",
+                item_name: "费尔韦瑟T-500头盔",
+                clo_type: "帽子",
+                effect: "疑神疑鬼 +1\n循循善诱 -1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/egJzSdOZ.png",
+                item_name: "萨马拉圆锥帽",
+                clo_type: "帽子",
+                effect: "逻辑思维 +1\n循循善诱 -1"
             }
         ]
     },

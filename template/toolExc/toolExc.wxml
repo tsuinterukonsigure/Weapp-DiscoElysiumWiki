@@ -1,6 +1,5 @@
 <!--template/toolExc/toolExc.wxml-->
 <template name="tool-exc">
-    <import src="/template/itemSlot/itemSlot.wxml"/>
     <view class="tool-exc-ttl">
         <text class="pic-ttl">图片</text>
         <text>名称</text>

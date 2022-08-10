@@ -300,6 +300,12 @@ Page({
                 item_name: "有香味的围巾",
                 clo_type: "外套",
                 effect: "天人感应 +1\n强身健体 -2"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/10/LqAO6UFx.png",
+                item_name: "跨岛礼服衬衫",
+                clo_type: "衬衫",
+                effect: "逻辑思维 +1"
             }
         ]
     },

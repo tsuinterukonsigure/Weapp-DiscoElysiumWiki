@@ -1,4 +1,6 @@
 /* pages/itemList/itemList.wxss */
+@import "/template/toolExc/toolExc.wxss";
+
 .excel-ttl {
     display: flex;
     border: 1rpx solid #333;

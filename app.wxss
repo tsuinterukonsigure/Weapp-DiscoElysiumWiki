@@ -3,7 +3,7 @@
 @import "/template/listSlot/listSlot.wxss";
 @import "/template/searchBar/searchBar.wxss";
 @import "/template/npcSlot/npcSlot.wxss";
-@import "/template/itemSlot/itemSlot.wxss";
+@import "/template/toolExc/toolExc.wxss";
 @import "/pages/itemList/itemList.wxss";
 
 text {

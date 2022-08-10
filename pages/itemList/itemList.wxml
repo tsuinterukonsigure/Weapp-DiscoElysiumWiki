@@ -9,15 +9,8 @@
         <van-tabs active="{{active}}" nav-class="item-tab" ellipsis="false" title-active-color="white" color="#c19664">
             <van-tab title="工具">
                 <view class="id-slot">
-                    <import src="/template/itemSlot/itemSlot.wxml"/>
-                    <view class="excel-ttl">
-                        <text class="ttl-f-pic">图片</text>
-                        <text>名称</text>
-                        <text>用途</text>
-                    </view>
-                    <block wx:for="{{tools}}" wx:key="id">
-                        <template is="item-slot" data="{{...item}}"></template>
-                    </block>
+                    <import src="/template/toolExc/toolExc.wxml"/>
+                    <template is="tool-exc" data="{{tools}}"></template>
                 </view>
             </van-tab>
             <van-tab title="服装">

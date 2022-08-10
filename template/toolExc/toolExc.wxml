@@ -1,2 +1,16 @@
 <!--template/toolExc/toolExc.wxml-->
-<text>template/toolExc/toolExc.wxml</text>
+<template name="tool-exc">
+    <import src="/template/itemSlot/itemSlot.wxml"/>
+    <view class="tool-exc-ttl">
+        <text class="pic-ttl">图片</text>
+        <text>名称</text>
+        <text>用途</text>
+    </view>
+    <block wx:for="{{tools}}" wx:key="id">
+        <view class="tool-card">
+            <image src="{{item.ava_pic}}"/>
+            <text>{{item.item_name}}</text>
+            <text>{{item.usage}}</text>
+        </view>
+    </block>
+</template>

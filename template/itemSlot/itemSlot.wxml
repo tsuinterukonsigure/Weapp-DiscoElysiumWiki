@@ -1,8 +1,0 @@
-<!--template/itemSlot/itemSlot.wxml-->
-<template name="item-slot">
-    <view class="item-card">
-        <image src="{{ava_pic}}"/>
-        <text>{{item_name}}</text>
-        <text>{{usage}}</text>
-    </view>
-</template>

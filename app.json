@@ -9,7 +9,6 @@
     "template/bg/bg",
     "template/listSlot/listSlot",
     "template/npcSlot/npcSlot",
-    "template/itemSlot/itemSlot",
     "template/toolExc/toolExc"
   ],
   "window":{

@@ -5,7 +5,7 @@ Page({
      * 页面的初始数据
      */
     data: {
-        active: 1,
+        active: 2,
         tools: [
             {
                 ava_pic: "https://img1.imgtp.com/2022/08/05/yWQMyLX5.png",
@@ -28,6 +28,11 @@ Page({
                 usage: "可拾取地上的各种瓶子到弗利特杂货店换钱"
             },
             {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/1cLGNVpr.png",
+                item_name: "氨盐安瓿瓶",
+                usage: "如果忍不住吐了，就需要找氨盐安瓿瓶来处理尸臭"
+            },
+            {
                 ava_pic: "https://img1.imgtp.com/2022/08/08/3HPqPbq9.png",
                 item_name: "失败与怨恨手册",
                 usage: "内陆帝国 +1\n通情达理 +1\n争强好胜 -2"
@@ -48,6 +53,51 @@ Page({
                 usage: "装备它可以打开世界上所有上锁的容器"
             },
             {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/bd2UTgI0.png",
+                item_name: "海军准将红朗姆",
+                usage: "体格 +1\n士气 -1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/Qa5j49K7.png",
+                item_name: "灰域陈年伏特加",
+                usage: "体格 +1\n士气 -1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/WCzPlz4Q.png",
+                item_name: "高度比尔森啤酒",
+                usage: "体格 +1\n士气 -1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/37UHmuCp.png",
+                item_name: "格瑞希的特酿",
+                usage: "体格 +1\n士气 -1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/ONC9GewJ.png",
+                item_name: "阿斯特拉香烟",
+                usage: "智力 +1\n生命值 -1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/ygusmx2e.png",
+                item_name: "提欧穆特里香烟",
+                usage: "智力 +1\n生命值 -1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/1JJ1pYIy.png",
+                item_name: "吡嚯浣酮",
+                usage: "精神 +1\n生命值 -1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/MQYB5HK0.png",
+                item_name: "圣巴蒂斯特牌帕立太特",
+                usage: "身手 +1\n士气 -1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/5CWCCYwg.png",
+                item_name: "瓶装思必得",
+                usage: "身手 +1\n士气 -1"
+            },
+            {
                 ava_pic: "https://img1.imgtp.com/2022/08/09/WiDMMN8O.png",
                 item_name: "标准115mm军刀",
                 usage: "装备它来打动自己"
@@ -65,6 +115,11 @@ Page({
             {
                 ava_pic: "https://img1.imgtp.com/2022/08/09/EnfMvcWf.png",
                 item_name: "纳克特威A80转管手枪",
+                usage: "在最困难的时候装备它吧"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/07/28/toFOQzi5.png",
+                item_name: "烈酒炸弹",
                 usage: "在最困难的时候装备它吧"
             }
         ],
@@ -475,6 +530,11 @@ Page({
                 ava_pic: "https://img1.imgtp.com/2022/08/11/i3OmKckp.png",
                 item_name: "棕色德比鞋",
                 clo_type: "鞋子"
+            }
+        ],
+        drags: [
+            {
+                
             }
         ]
     },

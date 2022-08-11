@@ -201,6 +201,12 @@ Page({
                 effect: "同舟共济 +1\n见微知著 +1"
             },
             {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/AUF0asiB.png",
+                item_name: "反光的建筑工马甲",
+                clo_type: "外套",
+                effect: "钢筋铁骨 +1：安全第一\n反应速度 -1：不可能丢失"
+            },
+            {
                 ava_pic: "https://img1.imgtp.com/2022/08/10/Ukw57Y0a.png",
                 item_name: "FALN“Faln”防风夹克",
                 clo_type: "外套",
@@ -323,7 +329,7 @@ Page({
                 ava_pic: "https://img1.imgtp.com/2022/08/10/tUhttho9.png",
                 item_name: "白色绸缎衬衫",
                 clo_type: "衬衫",
-                effect: "标新立异 +1：\n真正的声明\n循循善诱 -1：\n讨厌的气味"
+                effect: "标新立异 +1：真正的声明\n循循善诱 -1：讨厌的气味"
             },
             {
                 ava_pic: "https://img1.imgtp.com/2022/08/10/H0kXFL7T.png",
@@ -372,6 +378,103 @@ Page({
                 item_name: "FALN“极限”系列手套",
                 clo_type: "手套",
                 effect: "疑神疑鬼 +1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/pz5BRafY.png",
+                item_name: "发痒的裤子",
+                clo_type: "裤子",
+                effect: "	疑神疑鬼 +2\n从容自若 -1\n鬼祟玲珑 -1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/BEYzKq2w.png",
+                item_name: "跨岛西裤",
+                clo_type: "裤子",
+                effect: "良知的国度 +1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/0gWr4FWp.png",
+                item_name: "FALN“模块”运动裤",
+                clo_type: "裤子",
+                effect: "鬼祟玲珑 +1\n强身健体 +1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/XvgBOEIO.png",
+                item_name: "喇叭裤",
+                clo_type: "裤子",
+                effect: "鬼祟玲珑 -1：大腿部分有点紧\n食髓知味 +1：胯部有点紧"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/5DWwt88n.png",
+                item_name: "男士工装裤",
+                clo_type: "裤子",
+                effect: "食髓知味 +1\n反应速度 -1	"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/hpjzucmC.png",
+                item_name: "皇家卡宾枪手裤",
+                clo_type: "裤子",
+                effect: "反应速度 +1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/wXNAqpQP.png",
+                item_name: "萨拉米尔泽休闲裤",
+                clo_type: "裤子"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/z77rpWqa.png",
+                item_name: "普通的黑牛仔裤",
+                clo_type: "裤子"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/M30q8NDP.png",
+                item_name: "梅斯克古惑仔红牛仔裤",
+                clo_type: "裤子"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/8NHczJps.png",
+                item_name: "RCM警督裤",
+                clo_type: "裤子"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/31LhwiLs.png",
+                item_name: "费尔韦瑟T-500护胫",
+                clo_type: "鞋子",
+                effect: "争强好胜 +2\n从容自若 -1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/ozFyoEVH.png",
+                item_name: "梅斯克古惑仔的红布洛克鞋",
+                clo_type: "鞋子",
+                effect: "通情达理 +1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/AfYxauN9.png",
+                item_name: "绿蛇皮鞋",
+                clo_type: "鞋子",
+                effect: "从容自若 +1：恐怖的高跟\n鬼祟玲珑 -1：荒谬的高跟"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/EjaRG4TS.png",
+                item_name: "弗兰考格斯骑兵靴",
+                clo_type: "鞋子",
+                effect: "五感发达 +1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/fB7FCoHQ.png",
+                item_name: "黑色僧侣鞋",
+                clo_type: "鞋子",
+                effect: "间接征税模式 +1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/XAOyMjQD.png",
+                item_name: "FALN“极限”系列运动鞋",
+                clo_type: "鞋子",
+                effect: "反应速度 +1\n眼明手巧 +1\n博学多闻 -1"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/i3OmKckp.png",
+                item_name: "棕色德比鞋",
+                clo_type: "鞋子"
             }
         ]
     },

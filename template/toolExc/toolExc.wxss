@@ -36,7 +36,7 @@
     width: 128rpx !important;
     height: 128rpx !important;
     background-color: #222;
-    padding: 5rpx 5rpx 5rpx 5rpx;
+    padding: 6rpx 6rpx 6rpx 6rpx;
     border-right: 1rpx solid #333;
 }
 .tool-card > text {

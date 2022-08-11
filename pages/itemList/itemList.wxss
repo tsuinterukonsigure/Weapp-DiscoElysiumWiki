@@ -3,6 +3,6 @@
 @import "/template/clothExc/clothExc.wxss";
 .pic-ttl {
     width: 128rpx !important;
-    padding: 5rpx 5rpx 5rpx 5rpx !important;
+    padding: 6rpx 6rpx 6rpx 6rpx !important;
     border-right: 1rpx solid #333;
 }

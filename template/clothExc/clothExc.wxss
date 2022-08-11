@@ -19,7 +19,7 @@
     color: gray;
 }
 .cloth-exc-ttl > text:nth-child(2) {
-    width: 160rpx;
+    width: 150rpx;
     border-right: 1rpx solid #333;
 }
 .cloth-exc-ttl > text:nth-child(3) {
@@ -40,7 +40,7 @@
     width: 128rpx !important;
     height: 128rpx !important;
     background-color: #222;
-    padding: 5rpx 5rpx 5rpx 5rpx;
+    padding: 6rpx 6rpx 6rpx 6rpx;
     border-right: 1rpx solid #333;
 }
 .cloth-card > text {
@@ -55,7 +55,7 @@
     padding-left: 20rpx;
 }
 .cloth-card > text:nth-child(2) {
-    width: 160rpx;
+    width: 150rpx;
     border-right: 1rpx solid #333;
 }
 .cloth-card > text:nth-child(3) {

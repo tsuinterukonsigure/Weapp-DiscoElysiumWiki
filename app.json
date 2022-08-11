@@ -10,7 +10,8 @@
     "template/listSlot/listSlot",
     "template/npcSlot/npcSlot",
     "template/toolExc/toolExc",
-    "template/clothExc/clothExc"
+    "template/clothExc/clothExc",
+    "template/dragExc/dragExc"
   ],
   "window":{
     "backgroundTextStyle":"dark",

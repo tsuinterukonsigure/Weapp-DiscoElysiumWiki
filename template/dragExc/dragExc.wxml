@@ -1,0 +1,19 @@
+<!--template/dragExc/dragExc.wxml-->
+<template name="drag-exc">
+    <view class="drag-exc-ttl">
+        <text class="pic-ttl">图片</text>
+        <text>名称</text>
+        <text>品牌</text>
+        <text>效果</text>
+        <text>思维影响</text>
+    </view>
+    <block wx:for="{{drags}}" wx:key="id">
+        <view class="drag-card">
+            <image src="{{item.ava_pic}}"></image>
+            <text>{{item.item_name}}</text>
+            <text>{{item.include}}</text>
+            <text>{{item.effect}}</text>
+            <text>{{item.mind}}</text>
+        </view>
+    </block>
+</template>

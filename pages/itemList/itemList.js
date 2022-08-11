@@ -534,7 +534,32 @@ Page({
         ],
         drags: [
             {
-                
+                ava_pic: "https://img1.imgtp.com/2022/08/11/ojPchkSt.png",
+                item_name: "尼古丁",
+                include: "阿斯特拉香烟\n提欧穆特里香烟",
+                effect: "智力 +1\n生命值 -1\n生命值下降导致钢筋铁骨 -1",
+                mind: "牛仔（效果加倍）"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/a93W0tPg.png",
+                item_name: "吡嚯浣酮",
+                include: "吡嚯浣酮",
+                effect: "精神 +1\n生命值 -1\n生命值下降导致钢筋铁骨 -1",
+                mind: "末日警探（效果加倍）"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/VC8H1qeg.png",
+                include: "灰域陈年伏特加\n高度比尔森啤酒\n海军准将红朗姆\n格瑞希的特酿",
+                item_name: "乙醇",
+                effect: "体格 +1\n士气 -1\n士气下降导致平心定气 -1",
+                mind: "瑞瓦肖民族性（效果加倍）\n现实的荒原（无效化）"
+            },
+            {
+                ava_pic: "https://img1.imgtp.com/2022/08/11/3aZf76CE.png",
+                item_name: "安非他命",
+                include: "圣巴蒂斯特牌帕立太特\n瓶装思必得",
+                effect: "身手 +1\n士气 -1\n士气下降导致平心定气 -1",
+                mind: "漫漫寂寞回家路（精神 +1）"
             }
         ]
     },
